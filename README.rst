@@ -23,10 +23,13 @@ Features
 Installation
 ------------
 
-Recommended method:
-```
-pipx install https://github.com/claytod5/map_it
-```
+Installing with pipx from Github::
+
+        pipx install https://www.github.com/{{ github_username }}/{{ project_slug }}
+
+Installing with pip from Github::
+
+        pip install https://www.github.com/{{ github_username }}/{{ project_slug }}
 
 Credits
 -------
