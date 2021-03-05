@@ -19,17 +19,31 @@ Features
 * Multiple browsers supported
         * Firefox
         * Chromium
+
+
         
 Installation
 ------------
 
+OS: Linux
+
 Installing with pipx from Github::
 
-        pipx install https://www.github.com/{{ github_username }}/{{ project_slug }}
+        pipx install https://www.github.com/claytod5/map_it
 
 Installing with pip from Github::
 
-        pip install https://www.github.com/{{ github_username }}/{{ project_slug }}
+        pip install https://www.github.com/claytod5/map_it
+
+
+Recommended Setup
+-----------------
+
+To make things quick and efficient, you can set up a keyboard shortcut to invoke the program after you copy something to your clipboard. Ths avoids having to copy something, open a terminal, and invoke the command.
+
+Using your Linux distro of choice, you can use the following command (as an example)::
+
+        bash -i -c "map_it"
 
 Credits
 -------
