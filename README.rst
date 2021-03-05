@@ -29,11 +29,11 @@ OS: Linux
 
 Installing with pipx from Github::
 
-        pipx install https://www.github.com/claytod5/map_it
+        pipx install git+https://www.github.com/claytod5/map_it
 
 Installing with pip from Github::
 
-        pip install https://www.github.com/claytod5/map_it
+        pip install git+https://www.github.com/claytod5/map_it
 
 
 Recommended Setup
