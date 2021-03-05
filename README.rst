@@ -20,6 +20,22 @@ Features
         * Firefox
         * Chromium
 
+Usage
+-----
+::
+$ map_it --help
+usage: map_it [-h] [-p {google_maps,map_quest,bing_maps}] [-b {chromium,firefox}]
+
+Search an address/location you have copied to your clipboard on an online map provider
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p {google_maps,map_quest,bing_maps}, --provider {google_maps,map_quest,bing_maps}
+                        An online map provider
+  -b {chromium,firefox}, --browser {chromium,firefox}
+                        An executable webbrowser
+
+       
 
         
 Installation
