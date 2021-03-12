@@ -6,7 +6,11 @@ from .main import map_it
 
 
 def main():
-    """Console script for map_it."""
+    """Console script for map_it.
+
+    Returns:
+        0: POSIX Exit Code indicating success
+    """
     parser = argparse.ArgumentParser(
         description="Search an address/location you have copied to your clipboard on \
             an online map provider"

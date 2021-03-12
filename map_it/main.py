@@ -19,12 +19,14 @@ providers = {
 def format_url(provider):
     """Returns a new url from appropriate provider and with search string.
 
-    :param provider: An online map provider. CLI interface defaults to "google_maps"
-    :returns: A complete url with provider prefix and search_string suffix
+    Args:
+        provider: An online map provider. CLI interface defaults to "google_maps"
+
+    Returns:
+        A complete url with provider prefix and search_string suffix
 
     Example:
-
-        https://google.com/maps/search/Seattle
+        "https://google.com/maps/search/Seattle"
 
     """
     clipboard_contents = pyperclip.paste()
@@ -36,8 +38,9 @@ def format_url(provider):
 def map_it(provider, browser):
     """Gather clipboard contents, replace non-wanted characters, and open browser url.
 
-    :param provider: An online map provider. CLI interface defaults to "google_maps"
-    :param browser: Name of browser. CLI interface defaults to "chromium"
+    Args:
+        provider: An online map provider. CLI interface defaults to "google_maps"
+        browser: Name of browser. CLI interface defaults to "chromium"
     """
     browser_controller = webbrowser.get(browser)
     browser_controller.open(format_url(provider))
