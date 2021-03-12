@@ -20,6 +20,24 @@ Features
         * Firefox
         * Chromium
 
+Usage
+-----
+::
+
+       $ map_it --help
+       usage: map_it [-h] [-p {google_maps,map_quest,bing_maps}] [-b {chromium,firefox}]
+
+       Search an address/location you have copied to your clipboard on an online map provider
+
+       optional arguments:
+         -h, --help            show this help message and exit
+         -p {google_maps,map_quest,bing_maps}, --provider {google_maps,map_quest,bing_maps}
+                               An online map provider
+         -b {chromium,firefox}, --browser {chromium,firefox}
+                               An executable webbrowser
+
+
+       
 
         
 Installation
@@ -29,11 +47,11 @@ OS: Linux
 
 Installing with pipx from Github::
 
-        pipx install https://www.github.com/claytod5/map_it
+        pipx install git+https://www.github.com/claytod5/map_it
 
 Installing with pip from Github::
 
-        pip install https://www.github.com/claytod5/map_it
+        pip install git+https://www.github.com/claytod5/map_it
 
 
 Recommended Setup
